@@ -134,7 +134,7 @@ void print(node *root, int space) {
       return;
     }
  
-    //IMPORTLANT FOR VISUALS: Sideways screen height/width - Tab 1 - Keep # same
+    //IMPORTLANT FOR VISUALS: Sideways screen height/width - Tab 1 - Keep += # same as Tab 2
     space += 10;
  
     // Process right child FIRST
@@ -142,11 +142,10 @@ void print(node *root, int space) {
  
     // Print current node after SPACE
     cout << endl;
-    //IMPORTANT FOR VISUALS: Sideways screen width/height - Tab 2 - Keep # same
+    //IMPORTANT FOR VISUALS: Sideways screen width/height - Tab 2 - Keep i # same as Tab 1
     for (int i = 10; i < space; i++) {
       cout << " ";
     }
-
     cout << root->data << endl;
  
     // Process left child SECOND
