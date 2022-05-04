@@ -25,7 +25,7 @@ int main(){
   root = NULL;
   int count = 0; //Max 100 Numbers allowed
   char action;
-  bool found;
+  bool found = false;
 
   while (true) {
     
